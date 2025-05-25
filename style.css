@@ -61,7 +61,7 @@ input {
 
 .main-box {
   height: 40vh;
-  background-image: url("/images/mainImage.png");
+  background-image: url("mainImage.png");
   width: 80%;
   margin: auto;
   background-position: center;
