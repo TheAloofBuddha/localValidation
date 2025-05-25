@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+}
+
+.sidebar {
+  width: 10%;
+  background-color: aquamarine;
+  height: 100vh;
+}
+
+main {
+  width: 90%;
+  background-color: azure;
+  height: 100vh;
+}
+.logo {
+  margin-top: -30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 2rem;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  height: 3vh;
+  width: 25vh;
+  border-radius: 12px;
+  padding: 15px;
+  border-style: none;
+}
+.navigate {
+  display: grid;
+  gap: 30px;
+  margin-left: 20px;
+}
+
+.navigate a {
+  text-decoration: none;
+  color: rgb(45, 43, 43);
+  font-size: 1.1rem;
+}
+
+.line {
+  border: 1px solid rgba(128, 128, 128, 0.166);
+  width: 96%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.main-box {
+  height: 40vh;
+  background-image: url("/images/mainImage.png");
+  width: 80%;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.rewards {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  margin-top: 40px;
+}
+.rewardsOne {
+  width: 60%;
+}
+.rewardsTwo {
+  width: 40%;
+}
+
+.details {
+  display: flex;
+  gap: 20px;
+}
+.heading {
+  margin-top: 40px;
+  display: grid;
+  gap: 20px;
+  color: grey;
+}
+.content {
+  margin-top: 40px;
+  display: grid;
+  gap: 20px;
+  color: rgba(0, 0, 0, 0.789);
+}
+.border {
+  border: 0.1rem solid rgba(128, 128, 128, 0.166);
+  margin-top: 20px;
+}
+
+.about {
+  margin-top: 30px;
+  display: grid;
+  gap: 20px;
+}
+.about span {
+  color: grey;
+}
+
+.showDetails button {
+  margin-right: 50px;
+  background-color: azure;
+  border: none;
+  cursor: pointer;
+}
+.one button {
+  border-radius: 18px;
+  border: none;
+  background-color: aquamarine;
+}
